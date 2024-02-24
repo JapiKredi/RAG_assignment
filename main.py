@@ -1,7 +1,7 @@
 # import required dependencies
 # https://docs.chainlit.io/integrations/langchain
 import os
-#from langchain import hub
+from langchain import hub
 from langchain.document_loaders import GithubFileLoader
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import Chroma
